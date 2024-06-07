@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #f0f0f0;
-  color: #333;
+  background-color: #121212;
+  color: #e0e0e0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  color: #333;
+  color: #e0e0e0;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -28,13 +28,13 @@ header {
 
 h3 {
   text-align: center;
-  color: #444;
+  color: #00e676;
 }
 
 hr {
   width: 100%;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #444;
   margin: 20px 0;
 }
 
@@ -43,13 +43,13 @@ hr {
 }
 
 .pw {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 230, 118, 0.5);
   display: flex;
   font-size: 1.25rem;
   align-items: center;
-  height: 60px;
+  height: 70px;
   width: 100%;
   position: relative;
   padding: 1rem;
@@ -60,7 +60,7 @@ hr {
 .pw button {
   background-color: transparent;
   border: none;
-  color: #007BFF;
+  color: #00e676;
   cursor: pointer;
   font-family: inherit;
   font-weight: bold;
@@ -76,27 +76,27 @@ hr {
 .pw:hover button {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
-  color: #0056b3;
+  color: #00c853;
 }
 
 .pw-body {
   padding: 1rem;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 230, 118, 0.5);
 }
 
 .form-control {
-  color: #333;
+  color: #e0e0e0;
   display: flex;
   justify-content: space-between;
   margin: 0.75rem 0;
 }
 
 .generate {
-  background-color: #007BFF;
+  background-color: #00e676;
   border: none;
-  color: #fff;
+  color: #121212;
   cursor: pointer;
   display: block;
   font-size: 1.25rem;
@@ -105,7 +105,12 @@ hr {
   margin-top: 1rem;
   width: 100%;
   border-radius: 4px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.generate:hover {
+  background-color: #00c853;
+  transform: scale(1.05);
 }
 
 .generate:hover {
