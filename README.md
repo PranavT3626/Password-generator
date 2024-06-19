@@ -1,6 +1,6 @@
 # Password Generator
 
-![Password Generator Preview](https://raw.githubusercontent.com/pranavt3626/Password-generator/main/password_generator_preview.png)
+![Password Generator Preview](https://github.com/PranavT3626/Password-generator/blob/main/Screenshot%202024-06-19%20221804.png)
 
 ## Introduction
 This repository hosts a robust and user-friendly password generator built using HTML, CSS, and JavaScript. With cyber threats looming large, having strong and unique passwords is crucial for online security. This generator empowers users to create such passwords effortlessly, tailored to their specific needs.
